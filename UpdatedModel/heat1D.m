@@ -41,7 +41,7 @@ skinDepth               = skDepth(delta,S,rho_s,ks,P,latitude);
 % Initialize grid
 [z,dz,d3z,g1,g2,rho,kc] = grid(zmax,m,n,H,rho_s,rho_d,ks,kd,skinDepth);
 
-% Determine average albedo for a given latitude from LOLA data
+% Determine average albedo for a given latitude from LOLA data. If LOLA data unavailable, comment line 45 and see line 49
 [avTemp,times,avgLola]  = extractdiv(latitude,surface);
 
 % Calculate surface illumination conditions
