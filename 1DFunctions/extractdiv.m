@@ -8,7 +8,10 @@ function [avTemp,times,avgLola] = extractdiv(latitude,surface)
 % latitudes. The data contains < 1% rock abudance and <1 degree slope.
 % Rock abundance is given in permillage.
 
-load('Divinertemp-FeO-TiO2-Alb-H-Slope-LroRock-T7.mat');     
+%load('Divinertemp-FeO-TiO2-Alb-H-Slope-LroRock-T7.mat');    
+% Albedo map may be found in 
+% JianqingFeng. (2019). JianqingFeng/Data_production_of_the_Moon (Version v1.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3575481
+
 latitudeplus  = latitude + 0.25; 
 latitudeminus = latitude - 0.25; 
 ID1           = find(abs(data(:,2)) == latitudeplus);
