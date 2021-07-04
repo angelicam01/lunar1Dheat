@@ -21,7 +21,7 @@ totalsteps  = P/dt; % Amount of steps to take to satisfy
 zmax        = 2.0; % Maximum depth of grid
 m           = 20; % Grid Parameters
 n           = 30; % Grid parameter
-
+% surface     = 0; 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%% Thermophysical parameters %%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
