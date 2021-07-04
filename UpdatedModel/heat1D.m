@@ -46,6 +46,8 @@ skinDepth               = skDepth(delta,S,rho_s,ks,P,latitude);
 
 % Calculate surface illumination conditions
 [Qs,solF,albedo]        = insolationFeng(dt,delta,phi,P,S,avgLola);
+% If LOLA data unavailable, use this function (left side of equation (9) in Feng et al. (2020))
+[Qs,solF,albedo]        = insolationFeng2(dt,delta,phi,P,S,surface);
 
 %%%%%%%%%%%
 solF = solF';
