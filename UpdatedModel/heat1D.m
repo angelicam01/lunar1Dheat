@@ -1,6 +1,6 @@
 % One-dimensional heat transfer model of the lunar surface.
 % This model is similar to the Hayne et al. (2017) global lunar thermal model, but
-% has been modified to incorporate the Feng et al. (2020) bond Bolometric albedo
+% has been modified to incorporate the Feng et al. (2020) bolometric Bond albedo
 % model and the new low-temperature thermal conductivity model.
 % Author: Angelica Martinez (Southern Methodist University)
 
