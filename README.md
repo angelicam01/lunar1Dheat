@@ -2,6 +2,10 @@
 
 This repository contains a variety of source code used to model heat transfer in the upper 2 meters of the lunar surface. 
 
+Each folder 
+
+
+The codes are split up such that the one-dimensional heat flow equation may be solved with standard thermophysical parameters, or 
 
 
 
