@@ -39,13 +39,15 @@ sigma      = 5.67051196e-8; % Stefan-Boltzman constant
 skinDepth               = skDepth(delta,S,rho_s,ks,P,latitude);
 
 % Initialize grid
-[z,dz,d3z,g1,g2,rho,kc] = grid(zmax,m,n,H,rho_s,rho_d,ks,kd,skinDepth);
+[z,dz,d3z,g1,g2,rho,kc] = makegrid(zmax,m,n,H,rho_s,rho_d,ks,kd,skinDepth);
 
 % Determine average albedo for a given latitude from LOLA data
-[avTemp,times,avgLola]  = extractdiv(latitude,surface);
+%[avTemp,times,avgLola]  = extractdiv(latitude,surface);
 
 % Calculate surface illumination conditions
-[Qs,solF,albedo]        = insolationFeng(dt,delta,phi,P,S,avgLola);
+%[Qs,solF,albedo]        = insolationFeng(dt,delta,phi,P,S,avgLola);
+[Qs,solF,albedo]        = insolationFeng2(dt,delta,phi,P,S,avgLola);
+
 
 %%%%%%%%%%%
 solF = solF';
