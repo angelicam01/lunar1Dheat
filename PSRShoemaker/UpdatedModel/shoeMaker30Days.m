@@ -35,7 +35,7 @@ sigma      = 5.67051196e-8; % Stefan-Boltzman constant
 skinDepth               = skDepth(delta,S,rho_s,ks,P,latitude);
 
 % Initialize grid
-[z,dz,d3z,g1,g2,rho,kc] = grid(zmax,m,n,H,rho_s,rho_d,ks,kd,skinDepth);
+[z,dz,d3z,g1,g2,rho,kc] = makegrid(zmax,m,n,H,rho_s,rho_d,ks,kd,skinDepth);
 
 % Define surface illumination conditions calculated through ray tracing
 % algorithm 
