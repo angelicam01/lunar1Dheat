@@ -19,8 +19,8 @@ S           = 1361.0; % Solar constant [W/m^2]
 Q           = 0.018; % Interior heat flow [W/m^2]
 totalsteps  = P/dt; % Amount of steps to take to satisfy 
 zmax        = 2.0; % Maximum depth of grid 
-m           = 20;
-n           = 30; 
+m           = 20; % Grid parameter
+n           = 30; % Grid parameter
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%% Thermophysical parameters %%%%%%%%%
