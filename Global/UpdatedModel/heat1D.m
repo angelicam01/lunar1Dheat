@@ -6,7 +6,7 @@
 
 function [temperature,P,totalsteps,z] = heat1Dnew(latitude,surface)
 %%%%%%% surface = 1 for highlands; 
-%%%%%%% surface = 0 for albedo; 
+%%%%%%% surface = 0 for mare; 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% Model parameters %%%%%%%%%%%%%%%
