@@ -5,7 +5,7 @@
 
 function [temperature,P,totalsteps,z, avTemp,times] = heat1Dstandard(latitude,surface)
 %%%%%%% surface = 1 for highlands; 
-%%%%%%% surface = 0 for albedo; 
+%%%%%%% surface = 0 for mare; 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
