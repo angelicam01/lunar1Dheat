@@ -97,9 +97,9 @@ while any(abs(equiltemp1-equiltemp2) >= equilcondition)
 end
 
 % Plot temperature vs local time 
-time = linspace(0,P,totalsteps)/P*24;
-temperature = temperature(1,:); 
-plot(time,temperature,'LineWidth',2)
+time0 = linspace(0,P,totalsteps)/P*24;
+T1 = temperature(1,:); 
+plot(time0,T1,'LineWidth',2)
 xlim([0 24])
 xticks([0 4 8 12 16 20 24])
 xticklabels({'12:00', '16:00', '20:00','0:00', '4:00', '8:00', '12:00'})
