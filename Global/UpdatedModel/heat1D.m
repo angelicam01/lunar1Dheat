@@ -4,7 +4,7 @@
 % model and the new low-temperature thermal conductivity model.
 % Author: Angelica Martinez (Southern Methodist University)
 
-function [temperature,P,totalsteps,z] = heat1Dnew(latitude,surface)
+function [temperature,P,totalsteps,z] = heat1D(latitude,surface)
 %%%%%%% surface = 1 for highlands; 
 %%%%%%% surface = 0 for mare; 
 
@@ -46,7 +46,7 @@ skinDepth               = skDepth(delta,S,rho_s,ks,P,latitude);
 
 % Calculate surface illumination conditions
 %[Qs,solF,albedo]        = insolationFeng(dt,delta,phi,P,S,avgLola);
-[Qs,solF,albedo]        = insolationFeng2(dt,delta,phi,P,S,avgLola);
+[Qs,solF,albedo]        = insolationFeng2(dt,delta,phi,P,S,surface);
 
 
 %%%%%%%%%%%
