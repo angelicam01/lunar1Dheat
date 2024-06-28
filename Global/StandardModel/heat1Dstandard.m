@@ -3,7 +3,7 @@
 % the Feng et al. (2020) bond Bolometric albedo model. 
 % Author: Angelica Martinez (Southern Methodist University) 
 
-function [temperature,P,totalsteps,z, avTemp,times] = heat1Dstandard(latitude,surface)
+function [temperature,P,totalsteps,z] = heat1Dstandard(latitude,surface)
 %%%%%%% surface = 1 for highlands; 
 %%%%%%% surface = 0 for mare; 
 
