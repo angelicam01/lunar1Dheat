@@ -3,7 +3,7 @@
 % This script uses the standard Hayne et al. (2017) thermal conductivity model
 
 
-function [temperature,P,totalsteps,z,D] = heat1DcraterHayne(latitude,D)
+function [temperature,P,totalsteps,z,D] = heat1DcraterStandard(latitude,D)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% Model parameters %%%%%%%%%%%%%%%
