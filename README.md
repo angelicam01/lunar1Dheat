@@ -8,7 +8,7 @@ The repository is organized such that each folder (excluding `1DFunctions`) cont
 
 Execute [temperature,P,totalsteps,z] = heat1D(latitude,surface) in the command line to run the thermal model with the updated thermal conductivity model.
 
-Execute [temperature,P,totalsteps,z,D] = heat1DcraterStandard(latitude,D) to run the thermal model with standard thermophysical parameters. 
+Execute [temperature,P,totalsteps,z] = heat1Dstandard(latitude,surface) to run the thermal model with standard thermophysical parameters. 
 
 `Craters` - Models temperatures in near-polar bowl-shaped craters  
 (Similar execution as global model, but substitute the appriopriate function) 
